@@ -2,53 +2,68 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Upclz MC</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Upclz — Configurador de Servidores</title>
 <style>
-body{background:#070a18;color:#e6e8f5;font-family:sans-serif;margin:0;text-align:center}
-.wrap{max-width:800px;margin:auto;padding:40px 20px}
-h1{font-size:3rem;margin:0}
-h1 span{color:#8b5cf6}
-.sub{color:#9aa0c3}
-.tags span{background:#12162c;border:1px solid #252a4a;padding:6px 12px;border-radius:20px;margin:4px;display:inline-block;font-size:.85rem}
-.card{background:#10132a;border:1px solid #1e2342;border-radius:16px;padding:18px;margin:12px 0;text-align:left}
-.card h3{margin:0 0 6px;color:#fff}
-.card p{margin:0;color:#9aa0c3;line-height:1.5}
-.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-@media(max-width:600px){.grid{grid-template-columns:1fr}}
-.valores .card{border-left:3px solid #8b5cf6}
-.btn{background:#fff;color:#000;padding:12px 20px;border-radius:10px;text-decoration:none;font-weight:700;display:inline-block;margin-top:20px}
+body{margin:0;background:#070708;color:#eee;font-family:system-ui,sans-serif;line-height:1.5}
+.hero{padding:70px 20px;text-align:center;max-width:800px;margin:auto}
+h1{font-size:52px;margin:0} .grad{background:linear-gradient(90deg,#a78bfa,#60a5fa);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.sub{color:#aaa;font-size:18px;margin:15px 0 30px}
+.btn{padding:14px 26px;border-radius:30px;text-decoration:none;font-weight:800;margin:6px;display:inline-block}
+.w{background:#fff;color:#000}.g{background:#151515;color:#fff;border:1px solid #222}
+section{max-width:900px;margin:40px auto;padding:0 20px}
+h2{font-size:28px;margin-bottom:10px}.desc{color:#888;margin-bottom:20px}
+.grid{display:grid;grid-template-columns:1fr;gap:12px}
+@media(min-width:700px){.grid{grid-template-columns:1fr 1fr}}
+.card{background:#111114;border:1px solid #222;border-radius:16px;padding:16px}
+.card b{font-size:16px;color:#fff}.card span{color:#999;font-size:13px;display:block;margin-top:6px}
+.tag{font-size:10px;background:#1e1e22;padding:3px 8px;border-radius:20px;color:#a78bfa;border:1px solid #2a2a3a}
 </style>
 </head>
 <body>
-<div class="wrap">
-<h1>Upclz <span>MC</span></h1>
-<p class="sub">De Guayaquil, Ecuador. Staff, Configurador y Manager.</p>
-<div class="tags"><span>Configurador</span><span>Manager</span><span>Selka</span><span>DinoMC</span><span>MineCrush</span></div>
 
-<div class="card"><h3>Quien soy?</h3><p>Soy Upclz. Me dedico a ayudar en servidores de Minecraft. Me gusta mantener el orden, ayudar a jugadores nuevos y configurar todo para que el servidor vaya fluido. Trabajo con respeto y responsabilidad.</p></div>
+<div class="hero">
+<h1>Soy <span class="grad">Upclz</span></h1>
+<p class="sub">No solo instalo plugins. Configuro experiencias. Llevo más de 3 años creando lobbies, configurando servidores de Minecraft desde cero en Aternos y Paper, optimizando cada detalle para que tu servidor no sea uno más del montón, sino uno que retenga jugadores y se vea profesional desde el primer join.</p>
+<a class="btn w" href="https://wa.me/593XXXXXXXXX">Cotizar mi servidor</a>
+<a class="btn g" href="#plugins">Ver plugins</a>
+</div>
 
-<h2>Experiencia</h2>
-<div class="card"><h3>Selka - Staff</h3><p>Moderacion, soporte a jugadores, control de chat y reportes.</p></div>
-<div class="card"><h3>DinoMC - Staff</h3><p>Reportes, Survival, atencion a usuarios y eventos.</p></div>
-<div class="card"><h3>MineCrush - Manager</h3><p>Gestion de staff, comunidad, normas y organizacion general.</p></div>
+<section>
+<h2>¿Qué hago?</h2>
+<p class="desc">Me especializo en servidores Hub, Lobby, Survival y BoxPvP. No te vendo un server descargado de internet. Te armo tu servidor limpio, sin lag, con permisos bien hechos, con tab, chat, hologramas y todo configurado a tu estilo. Si tienes un Aternos que se cae o se lagea, yo lo dejo fino.</p>
+</section>
 
-<h2>Habilidades Tecnicas</h2>
+<section id="plugins">
+<h2>🛠️ Configurador - Plugins que domino</h2>
+<p class="desc">Estos son todos los plugins que sé instalar, configurar y dejar sin errores en consola. Si ves uno que necesitas, te lo configuro.</p>
+
 <div class="grid">
-<div class="card"><h3>Configurador</h3><p>LuckPerms, Essentials, TAB, Vault, WorldGuard. Permisos, rangos, scoreboards y protecciones.</p></div>
-<div class="card"><h3>Manager</h3><p>Gestion de staff, eventos, normas, sanciones justas y crecimiento del servidor.</p></div>
+<div class="card"><span class="tag">CONSTRUCCIÓN</span><b>WorldEdit</b><span>El esencial para construir lobbies gigantes. Sé usar //wand, //copy, //paste, //schematic y todo para pegar lobbies blancos en segundos.</span></div>
+<div class="card"><span class="tag">CONSTRUCCIÓN</span><b>WorldGuard</b><span>Para proteger tu lobby y que nadie rompa. Configuro flags, no-pvp, no-build, entry, exit y regiones.</span></div>
+<div class="card"><span class="tag">CORE</span><b>EssentialsX + EssentialsXChat + Spawn</b><span>Comandos base, /spawn, /home, /tpa, chat con formato, todo. Configuro mensajes, prefix y economía básica.</span></div>
+<div class="card"><span class="tag">PERMISOS</span><b>LuckPerms</b><span>El mejor sistema de rangos. Creo rangos Owner, Admin, Mod, Vip, Default con permisos exactos y sin dar OP a nadie.</span></div>
+<div class="card"><span class="tag">CORE</span><b>Vault + PlaceholderAPI</b><span>Conectan la economía y los placeholders. Necesarios para que TAB, chat y scoreboard funcionen.</span></div>
+<div class="card"><span class="tag">PROGRAMACIÓN</span><b>Skript + SkBee</b><span>Hago scripts personalizados: bienvenida, sistema de monedas, menús, comandos custom sin necesidad de plugins pesados.</span></div>
+<div class="card"><span class="tag">NPC</span><b>Citizens</b><span>Creo NPCs para tu lobby con comandos, teletransporte a modalidades y skins custom.</span></div>
+<div class="card"><span class="tag">COMPATIBILIDAD</span><b>ViaVersion + ViaBackwards</b><span>Dejo que entre gente de 1.8 hasta 1.21 a tu servidor 1.20 sin que se caiga.</span></div>
+<div class="card"><span class="tag">MUNDOS</span><b>Multiverse-Core</b><span>Creo mundos separados: lobby, survival, pvp, minijuegos con /mv create y portales.</span></div>
+<div class="card"><span class="tag">VISUAL</span><b>DecentHolograms / Holographic Displays</b><span>Hologramas flotantes con info del server, rangos, top kills, sin lag.</span></div>
+<div class="card"><span class="tag">VISUAL</span><b>TAB</b><span>Configuro el TAB 100% custom con header, footer, ping, y colores por rango.</span></div>
+<div class="card"><span class="tag">SEGURIDAD</span><b>CoreProtect</b><span>Anti-grief. Si alguien rompe, veo quien fue con /co inspect y puedo hacer rollback.</span></div>
+<div class="card"><span class="tag">OPTIMIZACIÓN</span><b>ClearLagg</b><span>Quita entidades del suelo cada X minutos para que el Aternos no se lagee.</span></div>
+<div class="card"><span class="tag">DIVERSIÓN</span><b>GSit + GSit Emotes</b><span>Para sentarse en escaleras, acostarse y poner emotes en el lobby, queda muy pro.</span></div>
+<div class="card"><span class="tag">UTILIDAD</span><b>SuperVanish / PremiumVanish</b><span>Para que el staff entre invisible sin que lo vean los jugadores.</span></div>
+<div class="card"><span class="tag">SPAWN</span><b>Custom Lobby / LobbySystems</b><span>Configuro doble salto, items del lobby, hide players, jump pads.</span></div>
 </div>
+</section>
 
-<h2>Valores</h2>
-<div class="grid valores">
-<div class="card"><h3>Respeto</h3><p>Trato a todos con respeto, sin importar rango. Escucho antes de sancionar.</p></div>
-<div class="card"><h3>Responsabilidad</h3><p>Cumplo horarios, reporto problemas y no abuso de permisos.</p></div>
-<div class="card"><h3>Trabajo en equipo</h3><p>Trabajo bien con otros staffs, ayudo y pido ayuda cuando se necesita.</p></div>
-<div class="card"><h3>Honestidad</h3><p>Transparente con pruebas y decisiones. Nada de favoritismos.</p></div>
-</div>
+<section>
+<h2>¿Listo para tu server?</h2>
+<p class="desc">No borres tu server. Yo te lo arreglo. Mándame mensaje y dime qué modalidad quieres y te armo presupuesto en 5 minutos. Trabajo para gente de Ecuador, Perú y Colombia, pago por PayPal, Nequi o transferencia.</p>
+<a class="btn w" href="https://wa.me/593XXXXXXXXX">Hablar con Upclz por WhatsApp</a>
+</section>
 
-<a class="btn" href="https://discord.com/users/king12302806">Discord: king12302806</a>
-<p style="color:#555;margin-top:20px;font-size:.8rem">2026 Upclz - Guayaquil, Ecuador</p>
-</div>
+<p style="text-align:center;color:#333;padding:40px">upclz.github.io — Guayaquil 2026 — Paper 1.20.4 Ready</p>
 </body>
-</html>
+  </html>
